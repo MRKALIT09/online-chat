@@ -83,6 +83,7 @@ def login():
       print("  Kesalahan")
     
     if req.text == "  Gagal Login":
+      print("  Gagal Login")
       time.sleep(1.5)
       os.system("clear")
       login()
